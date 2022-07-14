@@ -1,0 +1,11 @@
+.selected-page{
+    z-index:2;
+    background-color:#eee;
+    color:#075fb7;
+    border-color:#e0e0e0
+}
+
+.page-disabled{
+    pointer-events:none;
+    opacity:.65
+}

@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.5.3",
+    "@graphql-tools/schema": "^8.3.13",
+    "apollo-server": "^3.6.3",
+    "apollo-server-core": "^3.8.1",
+    "apollo-server-express": "^3.6.3",
+    "body-parser": "^1.19.2",
+    "cloudinary": "^1.29.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "graphql": "^16.3.0",
+    "graphql-scalars": "^1.17.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-tools": "^8.2.0",
+    "graphql-type-json": "^0.3.2",
+    "graphql-ws": "^5.8.2",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15",
+    "shortid": "^2.2.16",
+    "ws": "^8.7.0"
+  }
+}
